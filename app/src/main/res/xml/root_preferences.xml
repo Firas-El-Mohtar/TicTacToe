@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:key="first_preferencescreen"
+    >
+    <PreferenceCategory android:title="Enable Night Mode">
+        <CheckBoxPreference
+            android:title="Night Mode"
+            android:summaryOn="Night mode is activated"
+            android:summaryOff="Night mode is deactivated"
+            android:key="NIGHT"
+            android:defaultValue="false"/>
+</PreferenceCategory>
+    <PreferenceCategory android:title="Player One">
+        <ListPreference
+            android:title="Symbol Color"
+            android:key="Player One"
+            android:defaultValue="false"
+            android:entryValues="@array/items_value"
+            android:entries="@array/items_name"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Player Two">
+        <ListPreference
+            android:title="Symbol Color"
+            android:key="Player Two"
+            android:defaultValue="false"
+            android:entryValues="@array/items_value"
+            android:entries="@array/items_name"/>
+    </PreferenceCategory>
+</PreferenceScreen>

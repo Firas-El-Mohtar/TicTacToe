@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Login_screen"
+        android:title="Login Screen"
+        />
+    <item
+        android:id="@+id/Settings"
+        android:title="Settings"
+        />
+    <item
+        android:id="@+id/History"
+        android:title="Scores"/>
+</menu>
