@@ -76,8 +76,8 @@ class GameHeaderFragment : Fragment() {
         viewModel.invalidate()
     }
 
-    companion object {
-        @JvmStatic
-        fun newInstance() = GameHeaderFragment()
-    }
+        companion object {
+            @JvmStatic
+            fun newInstance() = GameHeaderFragment()
+        }
 }
